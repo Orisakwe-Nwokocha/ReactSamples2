@@ -1,0 +1,36 @@
+.footer {
+    background: #263238;
+    padding: 4% 0;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    gap: 20%;
+}
+
+.footerSide {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+}
+
+.footerSide > p {
+    display: block;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.input {
+    width: 90%;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+    background: #515b60;
+}
+
+.image {
+    position: relative;
+    left: 190px;
+    top: -27px;
+}
