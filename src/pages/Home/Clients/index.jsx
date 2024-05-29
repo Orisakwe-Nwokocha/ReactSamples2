@@ -32,15 +32,14 @@ const Clients = () => {
             </div>
 
             <div className={style.member2}>
-                {members.map((member) => (
+                {members.map((member, index) => (
+                    <div key={index} style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+                        <img src={member.image} alt={member.title} />
+                        <h2>{member.title}</h2>
+                        <p style={{width: "50%", textAlign: "center"}}>{member.text}</p>
 
-                        <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-                            <img src={member.image} alt={member.title} />
-                            <h2>{member.title}</h2>
-                            <p style={{width: "50%", textAlign: "center"}}>{member.text}</p>
-
-                    </div>
-                    ))}
+                     </div>
+                ))}
             </div>
 
 
