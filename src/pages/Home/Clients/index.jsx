@@ -36,8 +36,9 @@ const Clients = () => {
                     <div key={index} style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
                         { index === 1 ?
                             <div style={{
-                            height: "65px", width: "65px", borderBottomRightRadius: "35px",
-                            borderTopLeftRadius: "35px", background: "#e8f5e9"}}>
+                                height: "65px", width: "65px", borderBottomRightRadius: "35px",
+                                borderTopLeftRadius: "35px", background: "#e8f5e9"}}
+                            >
                                 <img src={member.image} alt={member.title}/>
                             </div>
                             :
