@@ -6,10 +6,7 @@ import logo3 from "../../../asset/Logo (3).png";
 import logo4 from "../../../asset/Logo (4).png";
 import logo5 from "../../../asset/Logo (5).png";
 import logo6 from "../../../asset/Logo (6).png";
-import group1 from "../../../asset/Group 1.png";
 import {members} from "./data";
-
-
 
 
 const Clients = () => {
@@ -35,15 +32,15 @@ const Clients = () => {
             </div>
 
             <div className={style.member2}>
-            {members.map((member, index) => (
+                {members.map((member) => (
 
-                    <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-                        <img src={member.image} alt={member.title} />
-                        <h2>{member.title}</h2>
-                        <p style={{width: "50%", textAlign: "center"}}>{member.text}</p>
+                        <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <img src={member.image} alt={member.title} />
+                            <h2>{member.title}</h2>
+                            <p style={{width: "50%", textAlign: "center"}}>{member.text}</p>
 
-                </div>
-                ))}
+                    </div>
+                    ))}
             </div>
 
 
