@@ -44,8 +44,8 @@ const Clients = () => {
                             :
                             <img src={member.image} alt={member.title} />
                         }
-                        <h2>{member.title}</h2>
-                        <p style={{width: "50%", textAlign: "center"}}>{member.text}</p>
+                        <h2 style={{color: "#4d4d4d"}}>{member.title}</h2>
+                        <p style={{width: "50%", textAlign: "center", color: "#9c9c9c", marginTop: "0"}}>{member.text}</p>
                      </div>
                 ))}
             </div>
