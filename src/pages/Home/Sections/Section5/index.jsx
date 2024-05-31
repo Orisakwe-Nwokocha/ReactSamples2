@@ -1,10 +1,10 @@
 import style from "../index.module.css";
-import pana from "../../../../asset/pana.png";
+import {data} from "./data";
 
 
 const Section5 = () => {
     return (
-        <>
+        <div style={{ marginBottom: "50px" }}>
             <div style={{
                 display: "grid", flexDirection: "column", justifyContent: "center",
                 alignItems: "center", textAlign: "center" }}>
@@ -18,10 +18,44 @@ const Section5 = () => {
                 </div>
             </div>
             <div className={style.section5}>
+                {data.map((item, index) => (
+                    <div key={index}>
+                        <div>
+                            <div>
+                                <img src={item.image} alt={item.text}
+                                     style={{width:"70%", paddingLeft: "57px"}}/>
+                                <div className={style.box} style={{
+                                    display: "grid",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    textAlign: "center"}}>
+                                    <div>
+                                        <p style={{color: "#4d4d4d"}}>
+                                            {item.firstText} <br/> {item.secondText} <br/> {item.thirdText}
+                                        </p>
+                                    </div>
+                                    <div style={{
+                                        display: "flex",
+                                        flexDirection: "row",
+                                        gap: "10px",
+                                        justifyContent: "center",
+                                        marginTop: "-20px"}}>
+                                        <div>
+                                            <p style={{color: "#4caf4f", display: "block"}}> Readmore </p>
+                                        </div>
+                                        <div>
+                                            <p style={{color: "#4caf4f", display: "block"}}>&#8594;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                ))}
 
             </div>
 
-        </>
+        </div>
     )
 }
 

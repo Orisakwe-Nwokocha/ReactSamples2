@@ -9,7 +9,8 @@ import style from './footer.module.css';
 const Footer = () => {
     return (
         <>
-            <div style={{backgroundColor: "#f5f7fa", display: "flex", alignItems: "center", justifyContent: "center"}}>
+            <div style={{backgroundColor: "#f5f7fa", display: "flex",
+                alignItems: "center", justifyContent: "center", marginTop: "20px"}}>
                 <button
                     style={{
                         color: "white",
@@ -21,7 +22,8 @@ const Footer = () => {
                         flexDirection: "row",
                         gap: "10px",
                         justifyContent: "center",
-                        alignItems: "center"
+                        alignItems: "center",
+                        margin: "20px"
                     }}>
                     <div>
                         Get a Demo
