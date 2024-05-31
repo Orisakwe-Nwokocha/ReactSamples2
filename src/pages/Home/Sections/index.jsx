@@ -42,7 +42,7 @@ const Sections = () => {
                 </div>
                 <div className={style.new}>
                     {data.map((value, index) => (
-                        <div key={index}>
+                        <div key={index} style={{paddingRight: "90px"}}>
                             <img src={value.image} alt="icon"/>
                             <p style={{marginTop: "0"}}>
                                 <span style={{fontSize: "large", fontWeight: "bold"}}> {value.firstText} </span> <br/>
