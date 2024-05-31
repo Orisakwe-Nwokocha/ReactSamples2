@@ -9,6 +9,30 @@ import style from './footer.module.css';
 const Footer = () => {
     return (
         <>
+            <div style={{backgroundColor: "#f5f7fa", display: "flex", alignItems: "center", justifyContent: "center"}}>
+                <button
+                    style={{
+                        color: "white",
+                        background: "#4caf4f",
+                        border: "none",
+                        borderRadius: "5px",
+                        padding: "3px 20px",
+                        display: "flex",
+                        flexDirection: "row",
+                        gap: "10px",
+                        justifyContent: "center",
+                        alignItems: "center"
+                    }}>
+                    <div>
+                        Get a Demo
+                    </div>
+                    <div >
+                        <p>&#8594;</p>
+                    </div>
+                </button>
+
+            </div>
+
             <footer className={style.footer}>
                 <div>
                     <img src={logoN} alt="logo"/>
