@@ -2,7 +2,7 @@ import style from "../index.module.css";
 import pana from "../../../../asset/pana.png";
 
 
-const Section2 = () => {
+const Section3 = () => {
     return (
         <>
             <div className={style.section}>
@@ -30,4 +30,4 @@ const Section2 = () => {
     )
 }
 
-export default Section2;
+export default Section3;

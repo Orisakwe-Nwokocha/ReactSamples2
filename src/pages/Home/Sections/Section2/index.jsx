@@ -6,7 +6,8 @@ const Section2 = () => {
         <>
             <div className={style.section} style={{backgroundColor: "#f5f7fa"}}>
                 <div>
-                    <p style={{marginBottom: "0", fontWeight: "bold", fontSize: "40px", color: "#4d4d4d"}}>Helping a local <span
+                    <p style={{marginBottom: "0", fontWeight: "bold", fontSize: "40px", color: "#4d4d4d"}}>
+                        Helping a local <span
                         style={{color: "#4caf4f", display: "block"}}>business reinvent itself </span>
                         <span
                             style={
