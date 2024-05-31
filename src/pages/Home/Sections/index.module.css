@@ -1,0 +1,11 @@
+.section {
+    display: flex;
+    gap: 40px;
+    padding: 10%;
+}
+
+.new {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
