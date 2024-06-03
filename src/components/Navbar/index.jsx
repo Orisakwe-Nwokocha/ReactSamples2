@@ -22,7 +22,7 @@ const Navbar = () => {
                     <p>FAQ</p>
                 </div>
 
-                <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: "15px"}}>
+                <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: "10px"}}>
                     <button
                         style={{color: "#4caf4f", background: "none", border: "none", fontSize: "16px",
                             fontWeight: "500"}}>Login
