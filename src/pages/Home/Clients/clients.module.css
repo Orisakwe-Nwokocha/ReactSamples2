@@ -23,3 +23,15 @@
     gap: 20px;
 }
 
+@media only screen and (max-width: 796px) {
+    .member2 {
+        flex-direction: column;
+    }
+    .input {
+        width: 70%;
+    }
+    .image {
+        left: -31px;
+        top: 4px;
+    }
+}

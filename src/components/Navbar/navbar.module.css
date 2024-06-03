@@ -1,11 +1,11 @@
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     padding: 0 45px;
     /*margin-top: 10px;*/
 }
 
-.midSection{
+.midSection {
     display: flex;
     gap: 25px;
     font-weight: 500;
@@ -17,4 +17,17 @@
 .midSection > p {
     color: #4d4d4d;
     font-size: 16px;
+}
+
+@media only screen and (max-width: 796px) {
+    .nav{
+        display: none;
+    }
+    .input{
+        width: 70%;
+    }
+    .image{
+        left: -31px;
+        top: 4px;
+    }
 }

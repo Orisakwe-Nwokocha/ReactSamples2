@@ -12,7 +12,7 @@ const Navbar = () => {
                 </div>
 
                 <div className={style.midSection}>
-                    <a href="https://chat.openai.com/" target="_blank">
+                    <a href="https://chat.openai.com/" target="_blank" rel="noreferrer">
                         <p>Home</p>
                     </a>
                     <p>Service</p>

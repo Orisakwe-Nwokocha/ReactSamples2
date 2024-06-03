@@ -1,12 +1,24 @@
-.heroSection{
+.heroSection {
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
 }
 
-.heroSection> div > h1{
+.heroSection > div > h1 {
     color: #4d4d4d;
     font-weight: bolder;
     font-size: 45px;
+}
 
+@media only screen and (max-width: 796px) {
+    .heroSection > img {
+        display: none;
+    }
+    .input {
+        width: 70%;
+    }
+    .image {
+        left: -31px;
+        top: 4px;
+    }
 }

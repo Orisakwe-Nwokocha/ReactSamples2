@@ -22,7 +22,7 @@ const Section4 = () => {
                         help us improve how our sport is governed.”</p>
                     <p style={{color: "#4caf4f", display: "block", fontFamily: "Inter, San-Serif"}}> Tim Smith </p>
                     <p style={{color: "#9c9c9c", fontSize: "12px"}}>British Dragon Boat Racing Association.</p>
-                    <div style={{display: "flex", gap: "30px"}}>
+                    <div className={style.section4} style={{display: "flex", gap: "30px"}}>
                         <div style={{display: "flex", flexDirection: "row", gap: "20px"}}>
                             <img src={logoBlue} alt="logoBlue" style={{width: "10%"}} />
                             <img src={logo1} alt="logo1" />

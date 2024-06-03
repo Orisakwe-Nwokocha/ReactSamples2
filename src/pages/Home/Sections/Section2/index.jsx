@@ -22,10 +22,7 @@ const Section2 = () => {
                     {data.map((value, index) => (
                         <div key={index} style={{display: "inline-block", paddingRight: "80px"}}>
                             <img src={value.image} alt="icon" style={{verticalAlign: "middle"}}/>
-                            <p style={{
-                                display: "inline-block", verticalAlign: "middle",
-                                marginTop: "30px", marginLeft: "10px"
-                            }}>
+                            <p className={style.section2P}>
                                 <span style={{fontSize: "large", fontWeight: "bold", color: "#4d4d4d"}}> {value.firstText} </span> <br/>
                                 <span style={{fontSize: "small", fontWeight: "lighter", color: "#9c9c9c"}}> {value.secondText} </span>
                             </p>

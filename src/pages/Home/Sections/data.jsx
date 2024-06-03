@@ -11,13 +11,13 @@ export const data = [
     },
 
     {
-        image: icon33,
+        image: icon4,
         firstText: "46,328",
         secondText: "Clubs",
     },
 
     {
-        image: icon4,
+        image: icon33,
         firstText: "828,867",
         secondText: "Event Bookings",
     },

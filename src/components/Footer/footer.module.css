@@ -35,5 +35,21 @@ input::placeholder {
     top: -27px;
 }
 
+@media only screen and (max-width: 796px) {
+    .footerSide {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .input {
+        width: 70%;
+    }
+    .image {
+        left: -31px;
+        top: 4px;
+    }
+}
 
 
